@@ -3,10 +3,9 @@ programa
 	
 	funcao inicio()
 	{
-		real sal, mediasal, msal=0.0, salt=0.0, menorsal=0.0, mediasalmen
-		inteiro x, nfilhos, tfilhos=0, medfilhos
+		real sal, mediasal, msal=0.0, salt=0.0, menorsal=0.0, mediasalmen, x, nfilhos, tfilhos=0.0, medfilhos
 
-		para(x=1;x<=20;x++)
+		para(x=1.0;x<=20.0;x++)
 		{
 			escreva("\nDigite seu salário: ")
 				leia(sal)
@@ -37,7 +36,7 @@ programa
 				escreva("\nMédia dos salarios R$",mediasal)
 				escreva("\nMédia de filhos: ",medfilhos)
 				escreva("\nO maior salário é R$",msal)
-				escreva("\nPercentual de pessoas com salarios até R$100 é de: ",mediasalmen, "%")
+				escreva("\nPercentual de pessoas com salarios até R$100 é de: ",mediasalmen, " %")
 		
 		}
 	}
@@ -48,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 329; 
+ * @POSICAO-CURSOR = 136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
