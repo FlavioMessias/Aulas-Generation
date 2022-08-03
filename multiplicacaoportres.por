@@ -8,7 +8,7 @@ programa
 		escreva("\nDigite um valor positivo: ")
 			leia(valor)
 			
-		enquanto(valor<=100)
+		enquanto(valor<=100 e valor>=0)
 	{
 			valor = valor * 3
 				escreva("\n", valor)
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 200; 
+ * @POSICAO-CURSOR = 156; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
